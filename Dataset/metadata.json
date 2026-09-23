@@ -1,0 +1,21 @@
+{
+  "dataset": "RadioML2016.10A",
+  "modulation": "BPSK",
+  "data_mode": "single_snr",
+  "target_snr_db": 18,
+  "sequence_shape": [
+    2,
+    128
+  ],
+  "seed": 42,
+  "split": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "normalization": {
+    "type": "per-IQ-channel z-score",
+    "fit_on": "training set only",
+    "stored_but_not_applied_to_saved_raw_IQ": true
+  }
+}
