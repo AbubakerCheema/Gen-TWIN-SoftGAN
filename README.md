@@ -14,7 +14,6 @@ This project learns the temporal and statistical characteristics of RF signals f
 * Spectral normalization
 * Adversarial training
 * Synthetic IQ sequence generation
-* Statistical and PCA-based evaluation
 * Training and convergence analysis
 
 ## Dataset
@@ -42,7 +41,6 @@ Generated samples are evaluated using:
 * Generator/Discriminator loss
 * I/Q mean and standard deviation
 * Temporal signal statistics
-* PCA feature-space comparison
 * Real vs. synthetic IQ distribution
 
 ## Applications
